@@ -1,0 +1,160 @@
+html{
+    background-color: rgb(255, 255, 255);
+    color: rgb(31, 31, 31); 
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 18px;
+}
+
+
+body{
+    margin: 0%;
+    padding: 0%;
+}
+
+.headerbild img{
+    width: 100%;
+}
+
+h1{
+    padding-top: 50px;
+    font-size: 3em;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+h2{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+
+p{
+    line-height: 30px;
+}
+
+ul{
+    padding: 0;
+}
+
+li{
+    list-style: none;
+    margin: 0;
+	padding: 0;
+}
+
+.content{
+    max-width: 75ch;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 300px;
+}
+
+.content-quelle{
+    max-width: 75ch;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 300px;
+    padding-top: 100px;
+}
+
+.bereiche{
+    margin-top: 100px;
+    padding-top: 10px;
+    border-top: 2px solid currentColor;
+}
+
+
+.mitglieder{
+    display: flex;
+    justify-content: space-between;
+    flex-basis: auto;
+    flex-wrap: wrap;
+}
+
+.mitglieder img{
+    width: 20ch;
+    padding-bottom: 20px;
+}
+
+.mitglieder li {
+    text-align: center;
+    padding-top: 30px;
+}
+
+
+.alben{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-basis: auto;
+    flex-wrap: wrap; 
+    gap: 5px;
+    padding-top: 30px;
+}
+
+.alben img{
+    width: 20ch;
+    /* box-shadow: 30px 30px 50px rgb(172, 171, 171); */
+}
+
+.albumname p{
+    text-align: center;
+    padding-top: 5px;
+    margin-bottom: 50px;
+    color: rgb(31, 31, 31);
+    text-decoration: none;
+}
+
+
+a {
+    text-decoration: none;
+    color: currentColor;
+}
+
+/* andere, frühere code varianten für den folgenden code
+
+a:hover {
+    text-decoration: underline;
+}
+
+.alben img:hover {
+    box-shadow: 30px 30px 50px rgb(149, 149, 149);
+    transition: all 0.35s;
+}
+
+*/
+
+
+a:hover img {
+    box-shadow: 30px 30px 50px rgb(149, 149, 149);
+    transition: all 0.35s;
+}
+
+
+.button a{
+    font-size: 15px;
+    background-color: rgb(31, 31, 31);
+    color: rgb(255, 255, 255);
+    padding-inline: 7px;
+    padding-block: 4px;
+    text-decoration: none;
+}
+
+.button a:hover{
+    background-color: rgb(93, 93, 93);
+    transition: all 0.25s;
+}
+
+footer{
+    max-width: 75ch;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75ch;
+}
+
+.footer{
+    display: flex;
+    gap: 20px;
+    margin-bottom: 30px;
+
+}
