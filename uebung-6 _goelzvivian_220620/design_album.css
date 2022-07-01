@@ -1,0 +1,79 @@
+
+.album-container h2{
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 3px;
+
+}
+
+
+.album-container p{
+    line-height: 30px;
+    margin-top: 0;
+}
+
+
+ol{
+    padding-top: 20px;
+    padding-inline: 0;
+}
+
+.album-container li{
+    list-style: none;
+    margin: 0;
+    padding-block: 10px;
+	padding-inline: 0px;
+    border-top: 1px solid currentColor;
+}
+
+
+.vinyl{
+    max-width: 75ch;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.vinyl img{
+    max-width: 75ch;
+}
+
+.album-container img{
+    box-shadow: 30px 30px 50px rgb(149, 149, 149);
+    width: 30ch;
+}
+
+.album-container{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    padding-top: 100px;
+    gap: 100px;
+}
+
+.album-body{
+    max-width: 75ch;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 300px;
+    padding-top: 75px;
+}
+
+.album-content{
+    flex-grow: 1;
+    padding-bottom: 100px;
+}
+
+
+h1{
+    font-size: 2em;
+    padding-top: 0;
+    margin-top: 0;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+
+.content-unterseite{
+    margin-top: 100px;
+}
