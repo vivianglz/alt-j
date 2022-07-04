@@ -94,6 +94,7 @@ li{
 
 .alben img{
     width: 20ch;
+	transition: all 0.35s;
     /* box-shadow: 30px 30px 50px rgb(172, 171, 171); */
 }
 
@@ -127,7 +128,6 @@ a:hover {
 
 a:hover img {
     box-shadow: 30px 30px 50px rgb(149, 149, 149);
-    transition: all 0.35s;
 }
 
 
